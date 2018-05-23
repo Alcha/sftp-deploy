@@ -1,0 +1,44 @@
+{
+    "name": "sftp-deploy",
+    "displayName": "SFTP Deploy",
+    "description": "A simple cli type app for syncing with an SFTP server.",
+    "version": "0.0.1",
+    "license": "MIT",
+    "main": "index.js",
+    "bin": {
+        "sftp-deploy": "./bin/sftp-deploy"
+    },
+    "scripts": {
+        "start": "node ./index.js",
+        "test": "jest"
+    },
+    "author": {
+        "email": "alcha@hasslefree.solutions",
+        "name": "Alcha",
+        "url": "https://hasslefree.solutions"
+    },
+    "homepage": "https://github.com/Alcha/sftp-deploy",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Alcha/sftp-deploy.git"
+    },
+    "bugs": {
+        "email": "bugs@hasslefree.solutions",
+        "url": "https://github.com/Alcha/sftp-deploy/issues"
+    },
+    "directories": {
+        "example": "./examples",
+        "doc": "./docs",
+        "test": "./tests"
+    },
+    "devDependencies": {
+        "jest": "",
+        "standard": ""
+    },
+    "dependencies": {
+        "fs-extra": "^6.0.1",
+        "minimist": "^1.2.0",
+        "ora": "^2.1.0",
+        "ssh2-sftp-client": "^2.2.1"
+    }
+}
