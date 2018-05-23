@@ -1,8 +1,8 @@
 {
-    "name": "sftp-deploy",
+    "name": "sftp-deploy-alcha",
     "displayName": "SFTP Deploy",
     "description": "A simple cli type app for syncing with an SFTP server.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
     "main": "index.js",
     "bin": {
